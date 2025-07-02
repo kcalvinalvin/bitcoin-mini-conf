@@ -34,9 +34,9 @@ header:
     align: "center"
     fixed_to_top: true
     logo:
-      text: ""
+      text: "Bitcoin Mini Conference"
       # Logo filename in `assets/media/` folder
-      filename: "logo.svg"
+      #filename: "bitcoin-logo.png"
     button:
       enable: true
       text: "Get Tickets"
