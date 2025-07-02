@@ -14,7 +14,7 @@ sections:
       text: 🚀 SECOND EDITION OF THE BITCOIN MINI CONFERENCE 🚀
       primary_action:
         text: Get Tickets
-        url: https://store.btcmap.kr/meetup/Bitcoin_Mini_Conference/
+        url: https://store.btcmap.kr/meetup/Bitcoin_Mini_Conference/7/
         icon: rocket-launch
       secondary_action:
         text: See Speakers
@@ -23,7 +23,7 @@ sections:
         text: "November 29-30"
         link:
           text: "Get Tickets"
-          url: https://store.btcmap.kr/meetup/Bitcoin_Mini_Conference/
+          url: https://store.btcmap.kr/meetup/Bitcoin_Mini_Conference/7/
     design:
       spacing:
         padding: [0, 0, 0, 0]
@@ -55,6 +55,19 @@ sections:
       # Reduce spacing
       spacing:
         padding: ["1rem", 0, "1rem", 0]
+  - block: markdown
+    id: speakers
+    content:
+      title: Speakers to be announced soon!
+      text: "**15+ speakers & 5+ workshops!**"
+  - block: markdown
+    id: schedule
+    content:
+      title: Schedule to be announced soon!
+      text: "**1 full day of talks+dinner & 1 full day of workshops!**"
+    design:
+      # Section background color (CSS class)
+      css_class: "bg-gray-100 dark:bg-gray-900"
   #- block: features
   #  id: features
   #  content:

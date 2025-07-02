@@ -40,7 +40,7 @@ header:
     button:
       enable: true
       text: "Get Tickets"
-      url: "https://store.btcmap.kr/meetup/Bitcoin_Mini_Conference/"
+      url: https://store.btcmap.kr/meetup/Bitcoin_Mini_Conference/7/
     show_search: false
     show_theme_chooser: true
 
