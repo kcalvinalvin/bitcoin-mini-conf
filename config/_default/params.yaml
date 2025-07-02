@@ -39,15 +39,15 @@ header:
       filename: "logo.svg"
     button:
       enable: true
-      text: "Get Started"
-      url: "https://hugoblox.com/templates/"
-    show_search: true
+      text: "Get Tickets"
+      url: "https://store.btcmap.kr/meetup/Bitcoin_Mini_Conference/"
+    show_search: false
     show_theme_chooser: true
 
-# Site footer
-footer:
-  copyright:
-    notice: '© {year} My Company'
+## Site footer
+#footer:
+#  copyright:
+#    notice: '© {year} My Company'
 
 # Localization
 locale:
