@@ -36,7 +36,7 @@ sections:
       background:
         image:
           # Add your image background to `assets/media/`.
-          filename: IMG_0262.JPG
+          filename: bgimage.gif
           size: cover
           # Image focal point. Options include `left`, `center` (default), or `right`.
           position: center
