@@ -59,7 +59,7 @@ sections:
     id: speakers
     content:
       title: Speakers to be announced soon!
-      text: "**15+ speakers & 5+ workshops!**"
+      text: "**20+ speakers & 10+ workshops!**"
   - block: markdown
     id: schedule
     content:
