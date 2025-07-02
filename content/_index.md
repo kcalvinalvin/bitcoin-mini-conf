@@ -11,7 +11,7 @@ sections:
   - block: hero
     content:
       title: Bitcoin Mini Conference
-      text: ₿ SECOND EDITION OF THE BITCOIN MINI CONFERENCE ₿
+      text: 🚀 SECOND EDITION OF THE BITCOIN MINI CONFERENCE 🚀
       primary_action:
         text: Get Tickets
         url: https://store.btcmap.kr/meetup/Bitcoin_Mini_Conference/
@@ -19,11 +19,11 @@ sections:
       secondary_action:
         text: See Speakers
         url: /#speakers
-      #announcement:
-      #  text: "Announcing the release of version 1."
-      #  link:
-      #    text: "Read more"
-      #    url: "/blog/"
+      announcement:
+        text: "November 29-30"
+        link:
+          text: "Get Tickets"
+          url: https://store.btcmap.kr/meetup/Bitcoin_Mini_Conference/
     design:
       spacing:
         padding: [0, 0, 0, 0]
@@ -46,10 +46,9 @@ sections:
         - statistic: "1st"
           description: |
             Community led conference in Korea
-        - statistic: "3k+"
+        - statistic: "300+"
           description: |
-            Discord community  
-            for support
+            Expected attendees in 2025
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
