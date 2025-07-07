@@ -13,7 +13,7 @@ sections:
       title: Bitcoin Mini Conference
       text: 🚀 SECOND EDITION OF THE BITCOIN MINI CONFERENCE 🚀
       primary_action:
-        text: Get Tickets
+        text: Get Tickets in BTC
         url: https://store.btcmap.kr/meetup/Bitcoin_Mini_Conference/7/
         icon: rocket-launch
       secondary_action:
@@ -21,6 +21,9 @@ sections:
         url: /#speakers
       announcement:
         text: "November 29-30"
+        link:
+          text: "Buy tickets in KRW"
+          url: https://smartstore.naver.com/promenadecastle/products/12055415750
     design:
       spacing:
         padding: [0, 0, 0, 0]
