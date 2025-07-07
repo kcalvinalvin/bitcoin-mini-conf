@@ -3,22 +3,22 @@
 #   The `weight` parameter defines the order that the links will appear in.
 
 main:
-  - name: Home
+  - name: 홈
     url: /#top
     weight: 10
-  - name: Schedule
+  - name: 스케쥴
     url: /#schedule
     weight: 20
-  - name: Speakers
+  - name: 연사
     url: /#speakers
     weight: 30
     weight: 30
-  - name: Tickets
+  - name: 티켓
     weight: 40
     hasChildren: true
-  - parent: Tickets
+  - parent: 티켓
     name: BTC
     url: https://store.btcmap.kr/meetup/Bitcoin_Mini_Conference/7/
-  - parent: Tickets
+  - parent: 티켓
     name: KRW
     url: https://smartstore.naver.com/promenadecastle/products/12055415750

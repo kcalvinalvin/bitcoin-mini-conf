@@ -37,10 +37,10 @@ header:
       text: "Bitcoin Mini Conference"
       # Logo filename in `assets/media/` folder
       #filename: "background-4.jpg"
-    button:
-      enable: true
-      text: "Get Tickets"
-      url: https://store.btcmap.kr/meetup/Bitcoin_Mini_Conference/7/
+    #button:
+    #  enable: true
+    #  text: "Get Tickets"
+    #  url: /#speakers
     show_search: false
     show_theme_chooser: true
 
