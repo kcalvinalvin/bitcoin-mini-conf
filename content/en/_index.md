@@ -65,18 +65,6 @@ sections:
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
-  - block: cta-card
-    content:
-      title: Get your tickets now!
-      text: In BTC or KRW
-      button:
-        text: Reserve your spot
-        url: #/blog
-    design:
-      card:
-        # Card background color (CSS class)
-        css_class: "bg-primary-700"
-        css_style: ""
   #- block: testimonials
   #  content:
   #    title: ""
