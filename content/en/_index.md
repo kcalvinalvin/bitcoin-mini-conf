@@ -65,6 +65,10 @@ sections:
       show_role: true
       show_social: true
   - block: markdown
+    id: more-spakers
+    content:
+      title: More speakers on the way!
+  - block: markdown
     id: schedule
     content:
       title: Schedule to be announced soon!
