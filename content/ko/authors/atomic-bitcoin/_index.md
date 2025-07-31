@@ -3,7 +3,7 @@
 title: 아토믹 비트코인
 
 # Role/position
-role: auditor
+role: Auditor
 
 # Organizations/Affiliations
 organizations:
