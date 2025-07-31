@@ -55,15 +55,15 @@ sections:
       # Reduce spacing
       spacing:
         padding: ["1rem", 0, "1rem", 0]
-  #- block: people
-  #  id: speakers
-  #  content:
-  #    title: Speakers
-  #    text: ""
-  #    user_groups: ['Speakers']
-  #  design:
-  #    show_role: true
-  #    show_social: true
+  - block: people
+    id: speakers
+    content:
+      title: Speakers
+      text: ""
+      user_groups: ['Speakers']
+    design:
+      show_role: true
+      show_social: true
   - block: markdown
     id: schedule
     content:
