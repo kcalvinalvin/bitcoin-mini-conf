@@ -55,11 +55,15 @@ sections:
       # Reduce spacing
       spacing:
         padding: ["1rem", 0, "1rem", 0]
-  - block: markdown
+  - block: people
     id: speakers
     content:
-      title: 연사자는 추후에 공개됩니다
-      text: "**연사 20명+ & 워크샵 10개+!**"
+      title: 연사
+      text: ""
+      user_groups: ['Speakers']
+    design:
+      show_role: true
+      show_social: true
   - block: markdown
     id: schedule
     content:
