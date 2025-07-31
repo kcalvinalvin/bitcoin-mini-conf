@@ -68,11 +68,17 @@ sections:
     id: more-spakers
     content:
       title: More speakers on the way!
-  - block: markdown
-    id: schedule
+  - block: cta-image-paragraph
+    id: about
     content:
-      title: Schedule to be announced soon!
-      text: "**1 full day of talks+dinner & 1 full day of workshops!**"
+      items:
+        - title: "First day: Curated talks to deliver maximum signal-to-noise ratio."
+          text: A single stage with insightful talks prepared by industry leading experts. K-BBQ dinner provided afterwards to all attendees to strengthen relationships between community members.
+          image: nsp-cropped.JPG
+
+        - title: "Second day: Hands on workshops with a Lightning Market in the heart of Seoul"
+          text: Workshops with a maximum size of 30 people to provide the attendees with quality educational sessions. Booths in the form of a Lightning market in the streets of Seoul to allow access for everyone in Seoul to visit and become a part of the community.
+          image: resone.JPG
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"

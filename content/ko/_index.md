@@ -13,8 +13,8 @@ sections:
       title: 비트코인 미니 컨퍼런스
       text: 🚀 2025년에도 다시 돌아온 비트코인 미니 컨퍼런스 🚀
       primary_action:
-        text: 비트코인으로 티켓 구매하기
-        url: https://store.btcmap.kr/meetup/Bitcoin_Mini_Conference/7/
+        text: "원화로 티켓 구매하기"
+        url: https://smartstore.naver.com/promenadecastle/products/12055415750
         icon: rocket-launch
       secondary_action:
         text: 연사 보기
@@ -22,8 +22,8 @@ sections:
       announcement:
         text: "11월 29-30일"
         link:
-          text: "원화로 티켓 구매하기"
-          url: https://smartstore.naver.com/promenadecastle/products/12055415750
+          text: 비트코인으로 티켓 구매하기
+          url: https://store.btcmap.kr/meetup/Bitcoin_Mini_Conference/7/
     design:
       spacing:
         padding: [0, 0, 0, 0]
@@ -68,11 +68,18 @@ sections:
     id: more-spakers
     content:
       title: "연사자는 계속 발표됩니다!"
-  - block: markdown
-    id: schedule
+  - block: cta-image-paragraph
+    id: about
     content:
-      title: 스케쥴은 추후에 공개됩니다
-      text: "**국내 및 해외 연사자들의 스피킹 + 조별 고기 회식 & University 데이**"
+      items:
+        - title: Main Day
+          text: 비트코인의 이해도가 높고 인사이트가 있는 사람들로 엄선하여 모두 함께 강연 형식으로 컨퍼런스를 즐기실 수 있습니다. 행사가 마무리 된 이후에는 참석자끼리의 교류를 활성화 하기 위해 모든 참여자분들께 소고기 회식을 제공합니다.
+          image: nsp-cropped.JPG
+
+        - title: Uni Day
+          text: 만나기 어렵던 진짜 전문가들과 함께 심층 높은 지식을 강의 형식으로 빠르게 배워갈 수 있습니다. 별도의 라이트닝 마켓 공간에서는 다양한 비트코인 관련 물건들을 만나보고 비트코인으로 구매하실 수 있습니다.
+          image: resone.JPG
+
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
