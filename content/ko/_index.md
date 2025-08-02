@@ -23,7 +23,7 @@ sections:
         text: "11월 29-30일"
         link:
           text: 비트코인으로 티켓 구매하기
-          url: https://store.btcmap.kr/meetup/Bitcoin_Mini_Conference/7/
+          url: https://store.btcmap.kr/meetup/Bitcoin_Mini_Conference/11/
     design:
       spacing:
         padding: [0, 0, 0, 0]

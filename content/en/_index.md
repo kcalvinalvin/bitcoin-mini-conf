@@ -14,7 +14,7 @@ sections:
       text: 🚀 SECOND EDITION OF THE BITCOIN MINI CONFERENCE 🚀
       primary_action:
         text: Get Tickets in BTC
-        url: https://store.btcmap.kr/meetup/Bitcoin_Mini_Conference/7/
+        url: https://store.btcmap.kr/meetup/Bitcoin_Mini_Conference/11/
         icon: rocket-launch
       secondary_action:
         text: See Speakers

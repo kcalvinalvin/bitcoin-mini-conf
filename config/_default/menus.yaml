@@ -18,7 +18,7 @@ main:
     hasChildren: true
   - parent: Tickets
     name: BTC
-    url: https://store.btcmap.kr/meetup/Bitcoin_Mini_Conference/7/
+    url: https://store.btcmap.kr/meetup/Bitcoin_Mini_Conference/11/
   - parent: Tickets
     name: KRW
     url: https://smartstore.naver.com/promenadecastle/products/12055415750
