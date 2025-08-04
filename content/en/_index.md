@@ -69,7 +69,7 @@ sections:
     content:
       title: More speakers on the way!
   - block: cta-image-paragraph
-    id: about
+    id: schedule
     content:
       items:
         - title: "First day: Curated talks to deliver maximum signal-to-noise ratio."

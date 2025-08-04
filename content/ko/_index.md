@@ -69,7 +69,7 @@ sections:
     content:
       title: "연사자는 계속 발표됩니다!"
   - block: cta-image-paragraph
-    id: about
+    id: schedule
     content:
       items:
         - title: Main Day
