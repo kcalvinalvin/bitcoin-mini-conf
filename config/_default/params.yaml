@@ -12,10 +12,10 @@ appearance:
 marketing:
   seo:
     site_type: event
-    local_business_type: ''
-    org_name: ''
+    local_business_type: 'Conference'
+    org_name: 'Bitcoin Mini Conference'
     description: 'Bitcoin Mini Conference. Seoul. Novemeber 29-30'
-    twitter: ''
+    twitter: 'https://x.com/bitcoinminiconf'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -34,9 +34,8 @@ header:
     align: "center"
     fixed_to_top: true
     logo:
-      text: "Bitcoin Mini Conf"
       # Logo filename in `assets/media/` folder
-      #filename: "background-4.jpg"
+      filename: "logo.svg"
     #button:
     #  enable: true
     #  text: "Get Tickets"

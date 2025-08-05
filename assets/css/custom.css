@@ -1,0 +1,20 @@
+/* Make the inline SVG logo in the header bigger */
+/* Default size (mobile first) */
+#site-header .navbar-brand svg {
+  height: 40px;
+  width: auto;
+}
+
+/* Tablet and up (≥768px) */
+@media (min-width: 768px) {
+  #site-header .navbar-brand svg {
+    height: 56px;
+  }
+}
+
+/* Desktop and up (≥1024px) */
+@media (min-width: 1024px) {
+  #site-header .navbar-brand svg {
+    height: 60px;
+  }
+}
