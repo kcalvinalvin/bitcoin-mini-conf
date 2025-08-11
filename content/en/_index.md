@@ -82,4 +82,14 @@ sections:
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
+  - block: logos
+    content:
+      title: "Sponsors"
+      # Image path relative to assets/media/ folder
+      logo_folder: 'sponsors/'
+    design:
+      card:
+        # Card background color (CSS class)
+        css_class: "bg-primary-700"
+        css_style: ""
 ---

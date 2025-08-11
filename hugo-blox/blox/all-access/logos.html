@@ -1,0 +1,105 @@
+{{/* Hugo Blox: Logos */}}
+{{/* Documentation: https://hugoblox.com/blocks/ */}}
+{{/* License: All Access Pass Required - https://hugoblox.com/sponsor/ */}}
+
+{{/* Initialise */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $logo_folder := $block.content.logo_folder | default "" }}
+
+<section class="py-20 sm:py-32">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    {{ with $block.content.title }}
+      <h2
+        class="mx-auto max-w-2xl text-center font-display text-4xl font-medium tracking-tighter text-primary-900 dark:text-primary-300 sm:text-5xl">
+        {{ . | markdownify }}
+      </h2>
+    {{ end }}
+    {{ with $block.content.text }}
+      <p class="text-xl text-center my-5">{{ . | markdownify }}</p>
+    {{ end }}
+
+    {{ $images := resources.Match (printf "media/%s/*.{svg,png}" $logo_folder) }}
+
+    {{/* Title sponsor row */}}
+    <div class="mx-auto mt-16 mb-16 flex justify-center">
+      {{ range $images }}
+        {{- $img := . -}}
+        {{- $isSVG := eq $img.MediaType.SubType "svg" -}}
+        {{- $isTitle := or (in (lower $img.RelPermalink) "/title-sponsor") (in (lower $img.Name) "title-sponsor") -}}
+        {{ if $isTitle }}
+          {{ if not $isSVG }}
+            {{ $w := slice 360 520 700 900 }}
+            {{ $srcset := slice }}
+            {{ range $w }}
+              {{ $ri := $img.Resize (printf "%dx webp" .) }}
+              {{ $srcset = $srcset | append (printf "%s %dw" $ri.RelPermalink .) }}
+            {{ end }}
+            {{ $fallback := $img.Resize "520x webp" }}
+            <img
+              class="block mx-auto"
+              decoding="async"
+              loading="lazy"
+              style="color:transparent"
+              src="{{ $fallback.RelPermalink }}"
+              srcset="{{ delimit $srcset ", " }}"
+              sizes="(min-width: 1024px) 520px, 70vw"
+              width="{{ $fallback.Width }}"
+              height="{{ $fallback.Height }}"
+              alt="Title Sponsor">
+          {{ else }}
+            <img
+              class="block mx-auto w-[520px] max-w-full"
+              decoding="async"
+              loading="lazy"
+              style="color:transparent"
+              src="{{ $img.RelPermalink }}"
+              alt="Title Sponsor">
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    </div>
+
+    {{/* Other sponsors grid */}}
+    <div
+      class="mx-auto mt-12 grid max-w-max grid-cols-1 gap-x-32 gap-y-12 sm:grid-cols-3 md:gap-x-16 lg:gap-x-32">
+      {{ range $images }}
+        {{- $img := . -}}
+        {{- $isSVG := eq $img.MediaType.SubType "svg" -}}
+        {{- $isTitle := or (in (lower $img.RelPermalink) "/title-sponsor") (in (lower $img.Name) "title-sponsor") -}}
+        {{ if not $isTitle }}
+          <div class="flex justify-center">
+            {{ if not $isSVG }}
+              {{ $w := slice 200 300 400 600 }}
+              {{ $srcset := slice }}
+              {{ range $w }}
+                {{ $ri := $img.Resize (printf "%dx webp" .) }}
+                {{ $srcset = $srcset | append (printf "%s %dw" $ri.RelPermalink .) }}
+              {{ end }}
+              {{ $fallback := $img.Resize "300x webp" }}
+              <img
+                class="block mx-auto"
+                decoding="async"
+                loading="lazy"
+                style="color:transparent"
+                src="{{ $fallback.RelPermalink }}"
+                srcset="{{ delimit $srcset ", " }}"
+                sizes="(min-width: 1024px) 300px, 200px"
+                width="{{ $fallback.Width }}"
+                height="{{ $fallback.Height }}"
+                alt="logo">
+            {{ else }}
+              <img
+                class="block mx-auto max-w-[300px]"
+                decoding="async"
+                loading="lazy"
+                style="color:transparent"
+                src="{{ $img.RelPermalink }}"
+                alt="logo">
+            {{ end }}
+          </div>
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</section>
