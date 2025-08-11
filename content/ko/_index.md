@@ -46,7 +46,7 @@ sections:
         - statistic: "국내 유일"
           description: |
             비트코인 커뮤니티가 주최하는 컨퍼런스
-        - statistic: "300+"
+        - statistic: "400+"
           description: |
             2025년 예상 참여자
     design:

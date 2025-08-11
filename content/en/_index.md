@@ -46,7 +46,7 @@ sections:
         - statistic: "1st"
           description: |
             Community led conference in Korea
-        - statistic: "300+"
+        - statistic: "400+"
           description: |
             Expected attendees in 2025
     design:
