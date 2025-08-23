@@ -78,7 +78,7 @@ sections:
 
         - title: "Second day: Hands on workshops with a Lightning Market in the heart of Seoul"
           text: Workshops with a maximum size of 30 people to provide the attendees with quality educational sessions. Booths in the form of a Lightning market in the streets of Seoul to allow access for everyone in Seoul to visit and become a part of the community.
-          image: resone.JPG
+          image: spaceb.png
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"

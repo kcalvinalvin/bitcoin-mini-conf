@@ -78,7 +78,7 @@ sections:
 
         - title: Uni Day
           text: 만나기 어렵던 진짜 전문가들과 함께 심층 높은 지식을 강의 형식으로 빠르게 배워갈 수 있습니다. 별도의 라이트닝 마켓 공간에서는 다양한 비트코인 관련 물건들을 만나보고 비트코인으로 구매하실 수 있습니다.
-          image: resone.JPG
+          image: spaceb.png
 
     design:
       # Section background color (CSS class)
