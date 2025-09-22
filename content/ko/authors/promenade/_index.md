@@ -1,20 +1,20 @@
 ---
 # Display name
-title: Promenade
+title: 프로메나드
 
 # Role/position
-role: PromenadeCastle
+role: 프로메나드 캐슬
 
 # Organizations/Affiliations
 organizations:
-  - name: Bitcoin Citadel 
+  - name: 비트코인 시타델
 
 # Social Networking
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: brands/x
     url: https://x.com/PromenadeCastle
-  - icon: 
+  - icon:
     url: https://promenadecastle.com/
 
 # Organizational groups that you belong to (for People widget)

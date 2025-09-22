@@ -3,7 +3,7 @@
 title: Promenade
 
 # Role/position
-role: PromenadeCastle
+role: Promenade Castle
 
 # Organizations/Affiliations
 organizations:
