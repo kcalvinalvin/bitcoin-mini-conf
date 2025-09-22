@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Waller of Satoshi
+title: Wallet of Satoshi
 
 # Role/position
 role: CEO

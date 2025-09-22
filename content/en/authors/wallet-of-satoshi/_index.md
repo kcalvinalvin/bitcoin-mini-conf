@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Waller of Satoshi
+title: Wallet of Satoshi
 
 # Role/position
 role: CEO
@@ -14,7 +14,7 @@ organizations:
 profiles:
   - icon: brands/x
     url: https://x.com/walletofsatoshi
-  - icon: 
+  - icon:
     url: https://www.walletofsatoshi.com
 
 # Organizational groups that you belong to (for People widget)
