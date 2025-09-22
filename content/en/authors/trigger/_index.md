@@ -3,7 +3,7 @@
 title: Trigger
 
 # Role/position
-role: BitcoinSeoulCenter
+role: Bitcoin Seoul Center
 
 # Organizations/Affiliations
 organizations:
