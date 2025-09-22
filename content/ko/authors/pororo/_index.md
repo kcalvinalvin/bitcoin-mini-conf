@@ -3,11 +3,11 @@
 title: Pororo
 
 # Role/position
-role: Generalist
+role: 제너럴리스트
 
 # Organizations/Affiliations
 organizations:
-  - name: Developer
+  - name: 개발자
 
 # Social Networking
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
